@@ -53,7 +53,6 @@ CREATE TABLE tbPedidoProduto(
 	PED_CODIGO int not null,
 	PRO_CODIGO int not null,
 	PEP_QTDE int not null,
-	PEP_PRECO_UNIT double(10,2),
     primary key (PEP_CODIGO),
     constraint fk_tbPedidoProduto_tbPedido foreign key (PED_CODIGO) references tbPedido(PED_CODIGO),
     constraint fk_tbPedidoProduto_tbProduto foreign key (PRO_CODIGO) references tbProduto(PRO_CODIGO)
@@ -119,49 +118,47 @@ insert into tbProduto (PRO_NOME, PRO_QTDE, PRO_UNIDADE, PRO_PRECO_UNIT, FOR_CODI
 insert into tbProduto (PRO_NOME, PRO_QTDE, PRO_UNIDADE, PRO_PRECO_UNIT, FOR_CODIGO) value ('Lanterna',1, 'unidade', 19.99,4);
 insert into tbProduto (PRO_NOME, PRO_QTDE, PRO_UNIDADE, PRO_PRECO_UNIT, FOR_CODIGO) value ('Martelo',1, 'unidade', 14.99,4);
 insert into tbProduto (PRO_NOME, PRO_QTDE, PRO_UNIDADE, PRO_PRECO_UNIT, FOR_CODIGO) value ('Algodão',50, 'g', 1.99,5);
-insert into tbProduto (PRO_NOME, PRO_QTDE, PRO_UNIDADE, PRO_PRECO_UNIT, FOR_CODIGO) value ('Álcool Gel',500, 'mL', 9.99,5);
 
 -- Tabela Pedido --
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-02', 67, 1);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-03', 29, 4);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-04', 92, 3);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-05', 13, 3);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-06', 41, 4);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-07', 55, 2);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-08', 77, 2);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-09', 22, 4);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-10', 38, 4);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-11', 89, 3);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-12', 17, 1);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-13', 43, 4);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-14', 6, 4);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-15', 83, 2);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-16', 9, 2);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-17', 99, 2);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-18', 51, 3);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-19', 70, 3);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-20', 25, 1);
-insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-10-21', 8, 1);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-2-02',14 ,1);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2018-3-03',6 ,4);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2017-6-04',12 ,3);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2020-10-05',2 ,3);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2021-5-06',10 ,4);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2022-3-07',3 ,2);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2021-4-08',5 ,2);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2022-10-09',8 ,4);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2021-10-10',12 ,4);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2021-6-11',1 ,3);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2021-10-12',7 ,1);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2021-10-13',15 ,4);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2023-10-14',9 ,4);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2023-10-15',8 ,2);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2023-8-16',5 ,2);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2023-9-17',11 ,2);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2015-12-18',7 ,3);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2015-10-19',4 ,3);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2015-10-20',13 ,1);
+insert into tbPedido (PED_DATA, CLI_CODIGO, VEN_CODIGO) value ('2019-11-25',13 ,1);
 
-
--- Tabela de tbPedidoProduto --
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (85, 49, 2);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (134, 17, 6);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (40, 55, 10);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (82, 8, 9);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (118, 13, 9);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (157, 46, 8);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (137, 48, 9);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (82, 45, 6);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (136, 14, 1);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (72, 16, 10);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (160, 43, 7);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (72, 8, 6);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (127, 26, 10);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (62, 10, 8);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (51, 28, 7);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (98, 50, 1);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (36, 18, 2);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (141, 40, 10);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (143, 21, 7);
-insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (23, 24, 10);
+-- Tabela PedidoProduto --
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (1 , 16, 02);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (2, 09, 06);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (3, 07, 10);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (4, 19, 09);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (5, 12, 09);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (6, 10, 08);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (7, 05, 09);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (8, 08, 06);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (9, 14, 01);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (20 , 03, 10);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (19, 11, 07);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (18 , 01, 06);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (17 , 06, 10);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (16 , 14, 08);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (15, 02, 07);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (14, 13, 01);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (13, 17, 02);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (12, 04, 10);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (11, 15, 07);
+insert into tbPedidoProduto (PED_CODIGO, PRO_CODIGO, PEP_QTDE) value (10, 11, 10);
