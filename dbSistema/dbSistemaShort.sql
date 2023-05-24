@@ -65,20 +65,20 @@ CREATE TABLE tbPedidoProduto(
 
 -- Cadastro de Clientes --
 insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Sofia Rodriguez','781630492356','Rua do Sol',123,'Centro');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Lucas Santos','213540289654','Avenida das Flores',456,' Jardim Botânico');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Isabella Silva','846529018364','Rua dos Pinheiros',789,' Pinheiros');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Miguel Almeida','970218634125','Avenida da Praia',234,' Copacabana');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Ana Paula Costa','384769521039','Rua das Palmeiras',567,' Jardim Europa');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Tiago Ferreira','872109346523','Avenida das Dunas',890,' Barra da Tijuca');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Júlia Vieira','457982130964','Rua dos Cravos',123,' Vila Madalena');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Pedro Carvalho','925468713024','Avenida das Gaivotas',456,' Ipanema');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Lara Castro','345671982156','Rua das Acácias',789,' Perdizes');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Guilherme Souza','657890243561','Avenida das Amendoeiras',234,' Lagoa');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Giovanna Oliveira','231490785634','Rua dos Girassóis',567,' Itaim Bibi');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Rafael Pereira','876512093467','Avenida das Mangueiras',890,' Jardim Botânico');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Laura Martins','456389120367','Rua dos Crisântemos',123,' Jardins');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Gabriel Lima','981726304567','Avenida das Palmeiras',456,' Leblon');
-insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Beatriz Gonçalves','456870913284','Rua das Orquídeas',789,' Vila Nova Conceição');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Lucas Santos','213540289654','Avenida das Flores',456,'Jardim Botânico');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Isabella Silva','846529018364','Rua dos Pinheiros',789,'Pinheiros');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Miguel Almeida','970218634125','Avenida da Praia',234,'Copacabana');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Ana Paula Costa','384769521039','Rua das Palmeiras',567,'Jardim Europa');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Tiago Ferreira','872109346523','Avenida das Dunas',890,'Barra da Tijuca');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Júlia Vieira','457982130964','Rua dos Cravos',123,'Vila Madalena');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Pedro Carvalho','925468713024','Avenida das Gaivotas',456,'Ipanema');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Lara Castro','345671982156','Rua das Acácias',789,'Perdizes');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Guilherme Souza','657890243561','Avenida das Amendoeiras',234,'Lagoa');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Giovanna Oliveira','231490785634','Rua dos Girassóis',567,'Itaim Bibi');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Rafael Pereira','876512093467','Avenida das Mangueiras',890,'Jardim Botânico');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Laura Martins','456389120367','Rua dos Crisântemos',123,'Jardins');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Gabriel Lima','981726304567','Avenida das Palmeiras',456,'Leblon');
+insert into tbCliente (CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO) value ('Beatriz Gonçalves','456870913284','Rua das Orquídeas',789,'Vila Nova Conceição');
 
 -- Tabela de Vendedores --
 insert into tbVendedor (VEN_NOME, VEN_CPF) value ('Gabriel Heleno', '12332156769');
