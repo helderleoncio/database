@@ -13,7 +13,7 @@ INSERT INTO tbCurso (CUR_NOME, CUR_DESCICAO) VALUES
 ('Física', 'Curso dedicado aos princípios e teorias da Física, com ênfase em experimentos práticos');
 
 -- Inserção de dados na tabela de Disciplinas
-INSERT INTO tbDisciplina (DIC_NOME, CUR_COD, PRO_COD) VALUES
+INSERT INTO tbDisciplina (DIS_NOME, CUR_COD, PRO_COD) VALUES
 ('Álgebra', 1, 1),
 ('História Antiga', 2, 2),
 ('Mecânica Clássica', 3, 3);
