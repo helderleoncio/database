@@ -55,6 +55,6 @@ CREATE TABLE tbPedidoProduto(
 	PEP_QTDE int not null,
     primary key (PEP_CODIGO),
     constraint fk_tbPedidoProduto_tbPedido foreign key (PED_CODIGO) references tbPedido(PED_CODIGO),
-    constraint fk_tbPedidoProduto_tbProduto foreign key (PRO_CODIGO) references tbProduto(PRO_CODIGO),
+    constraint fk_tbPedidoProduto_tbProduto foreign key (PRO_CODIGO) references tbProduto(PRO_CODIGO)
     ON DELETE RESTRICT
 );
