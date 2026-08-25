@@ -11,4 +11,5 @@ Scripts, rotinas e funções das aulas de Banco de Dados I e II
 * <b>Funcionalidade 5</b>: Manipulação dos dados
 
 ## :wrench: Tecnologias utilizadas
-* Mysql, MS-SQL Server;
+* Mysql Server;
+*  * [Xammp](https://www.apachefriends.org)
