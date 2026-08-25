@@ -12,4 +12,6 @@ Scripts, rotinas e funções das aulas de Banco de Dados I e II
 
 ## :wrench: Tecnologias utilizadas
 * Mysql Server;
-*  * [Xammp](https://www.apachefriends.org)
+* [Mysql Workbench](https://dev.mysql.com/downloads/workbench)
+* [Xammp](https://www.apachefriends.org)
+
