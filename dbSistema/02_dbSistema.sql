@@ -36,6 +36,7 @@ CREATE TABLE tbProduto(
 	FOR_CODIGO int not null,
     primary key(PRO_CODIGO),
     constraint fk_tbFornecedor_tbProduto foreign key(FOR_CODIGO) references tbFornecedor(FOR_CODIGO)
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE tbPedido(
@@ -46,6 +47,7 @@ CREATE TABLE tbPedido(
     primary key (PED_CODIGO),
     constraint fk_tbPedido_tbCliente foreign key (CLI_CODIGO) references tbCliente(CLI_CODIGO),
     constraint fk_tbPedido_tbVendedor foreign key (VEN_CODIGO) references tbVendedor(VEN_CODIGO)
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE tbPedidoProduto(
@@ -56,5 +58,5 @@ CREATE TABLE tbPedidoProduto(
     primary key (PEP_CODIGO),
     constraint fk_tbPedidoProduto_tbPedido foreign key (PED_CODIGO) references tbPedido(PED_CODIGO),
     constraint fk_tbPedidoProduto_tbProduto foreign key (PRO_CODIGO) references tbProduto(PRO_CODIGO)
-    ON DELETE RESTRICT
+    ON DELETE CASCADE ON UPDATE CASCADE
 );
