@@ -19,14 +19,23 @@ CREATE PROCEDURE spConsultaProdutos(IN QTD INT)
 	END $$
 DELIMITER ;
 
+-- Cria uma procedure que consulta uma quantidade limitada de produtos,
+-- definida pelo parâmetro de entrada QTD:
+DELIMITER $$
+CREATE PROCEDURE spConsultaProdutos2(IN QTD INT)
+    BEGIN
+        SELECT * FROM vw_viewProdutos LIMIT QTD;
+    END $$
+DELIMITER ;
+
 -- Executa a procedure exibindo os 10 primeiros produtos:
-CALL spConsultaProdutos(10);
+CALL spConsultaProdutos2(5);
 
 -- Cria uma procedure que consulta uma quantidade de produtos.
 -- Caso QTD seja NULL, exibe todos os produtos:
 DELIMITER $$
 
-CREATE PROCEDURE spConsultaProdutos2(IN QTD INT)
+CREATE PROCEDURE spConsultaProdutos3(IN QTD INT)
 BEGIN
     IF QTD IS NULL THEN
         SELECT * FROM tbProduto;
@@ -38,10 +47,10 @@ END $$
 DELIMITER ;
 
 -- Exibe os 10 primeiros produtos:
-CALL spConsultaProdutos2(10);
+CALL spConsultaProdutos3(10);
 
 -- Exibe todos os produtos:
-CALL spConsultaProdutos2(NULL);
+CALL spConsultaProdutos3(NULL);
 
 -- Cria uma procedure que conta a quantidade total de produtos
 -- e armazena o resultado no parâmetro de saída QTD:

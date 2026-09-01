@@ -1,6 +1,6 @@
 
 -- Cria uma view que exibe os dados dos produtos:
-CREATE VIEW vw_viewProduto AS
+CREATE VIEW vw_viewProdutos AS
 SELECT PRO_CODIGO, PRO_NOME, PRO_QTDE, PRO_UNIDADE, PRO_PRECO_UNIT 
 from tbProduto;
 
@@ -10,7 +10,7 @@ SELECT CLI_CODIGO, CLI_NOME, CLI_RUA, CLI_NUMERO, CLI_BAIRRO
 FROM tbCliente;
 
 -- Consultar os dados armazenados na view:
-SELECT * FROM vw_viewProduto;
+SELECT * FROM vw_viewProdutos;
 SELECT * FROM vw_viewClientes;
 
 -- Altera uma view existente, adicionando o CPF do cliente:
