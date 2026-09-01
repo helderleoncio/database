@@ -1,22 +1,24 @@
--- 1.0. Para criar uma view que exibe o código e o nome dos clientes:
-CREATE VIEW vw_viewNomes AS
+-- Cria uma view que exibe o código e o nome dos produtos:
+CREATE VIEW vw_viewProduto AS
+SELECT *
+FROM tbProduto;
+
+-- Cria uma view que exibe o código e o nome dos clientes:
+CREATE VIEW vw_viewClientes AS
 SELECT CLI_CODIGO, CLI_NOME
 FROM tbCliente;
 
--- 1.1. Para consultar os dados armazenados na view:
-SELECT * FROM vw_viewNomes;
+-- Consultar os dados armazenados na view:
+SELECT * FROM vw_viewClientes;
 
--- 2.0. Para alterar uma view existente, adicionando o CPF do cliente:
-CREATE OR REPLACE VIEW vw_viewNomes AS
+-- Altera uma view existente, adicionando o CPF do cliente:
+CREATE OR REPLACE VIEW vw_viewClientes AS
 SELECT CLI_CODIGO, CLI_NOME, CLI_CPF
 FROM tbCliente;
 
--- 2.1. Para consultar os dados armazenados na view:
-SELECT * FROM vw_viewNomes;
-
--- 3.0 Para alterar a view, renomear as colunas e exibir apenas os clientes
+-- Altera a view, renomear as colunas e exibir apenas os clientes
 -- cujo nome inicia com "GA":
-CREATE OR REPLACE VIEW vw_viewNomes AS
+CREATE OR REPLACE VIEW vw_viewClientes AS
 SELECT 
     CLI_CODIGO AS Codigo,
     CLI_NOME AS Nome,
@@ -24,18 +26,12 @@ SELECT
 FROM tbCliente
 WHERE CLI_NOME LIKE 'GA%';
 
--- 3.1. Para consultar os dados armazenados na view:
-SELECT * FROM vw_viewNomes;
-
--- 4.. Para alterar o nome de um cliente específico:
+-- Altera o nome de um cliente específico:
 UPDATE tbCliente
 SET CLI_NOME = 'Gabriela Leoncio'
 WHERE CLI_CODIGO = 14;
 
--- 4.1. Para consultar os dados armazenados na view:
-SELECT * FROM vw_viewNomes;
-
--- 5.0. Para criar uma view que exibe os pedidos realizados pelo vendedor de código 2:
+-- Cria uma view que exibe os pedidos realizados pelo vendedor de código 2:
 CREATE VIEW vw_PedidoVendedor AS
 SELECT 
     tbPedido.PED_CODIGO AS Codigo_Pedido, 
@@ -49,10 +45,10 @@ INNER JOIN tbVendedor
 WHERE tbVendedor.VEN_CODIGO = 2
 WITH CHECK OPTION;
 
--- 5.1. Para consultar os dados armazenados na view:
+-- Consulta os dados armazenados na view:
 SELECT * FROM vw_PedidoVendedor;
 
--- 6.0. Para alterar ou recriar a view utilizando apelidos (aliases) para as tabelas:
+-- Altera ou recriar a view utilizando apelidos (aliases) para as tabelas:
 CREATE OR REPLACE VIEW vw_PedidoVendedor AS
 SELECT 
     p.PED_CODIGO AS Codigo_Pedido, 
@@ -66,19 +62,13 @@ INNER JOIN tbVendedor AS v
 WHERE v.VEN_CODIGO = 2
 WITH CHECK OPTION;
 
--- 6.1. Para consultar os dados armazenados na view:
-SELECT * FROM vw_PedidoVendedor;
-
--- 7.0 Para alterar o código do vendedor chamado "Luis Gustavo" para 6:
+-- Altera o código do vendedor chamado "Luis Gustavo" para 6:
 UPDATE tbVendedor
 SET VEN_CODIGO = 6
 WHERE VEN_NOME = 'Luis Gustavo';
 
--- 7.1. Para consultar os dados armazenados na view:
-SELECT * FROM vw_PedidoVendedor;
-
--- 8.0 Para criar uma view que exibe os produtos com preço acima da média:
-CREATE VIEW vw_Media_Preco_Produtos AS
+-- Criar uma view que exibe os produtos com preço acima da média:
+CREATE VIEW vw_MediaPrecoProdutos AS
 SELECT 
     p.PRO_NOME AS Nome_Produto, 
     p.PRO_PRECO_UNIT AS Preco_Unitario
@@ -88,13 +78,10 @@ WHERE p.PRO_PRECO_UNIT > (
     FROM tbProduto
 );
 
--- 8.1. Para consultar os dados armazenados na view:
-SELECT * FROM vw_Media_Preco_Produtos;
-
--- 9.0. Exibe informações sobre as VIEW's do Banco de Dados
+-- Exibe informações sobre as VIEW's do Banco de Dados
 SHOW FULL TABLES WHERE TABLE_TYPE LIKE 'VIEW';
 SHOW FULL TABLES IN dbSistema WHERE TABLE_TYPE LIKE 'VIEW';
 SELECT TABLE_SCHEMA, TABLE_NAME FROM information_schema.TABLES WHERE TABLE_TYPE LIKE 'VIEW';
 
--- 10.0. Para apagar a view:
-DROP VIEW vw_viewNomes;
+-- Apagar as views:
+DROP VIEW vw_viewClientes;

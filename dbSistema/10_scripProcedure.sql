@@ -1,11 +1,11 @@
 DELIMITER $$
-	CREATE PROCEDURE sp_exibir_clientes()
+	CREATE PROCEDURE spRelatorioClientes()
 	BEGIN
 		SELECT * FROM tbCliente;
 	END $$
 DELIMITER ;
 
-CALL sp_exibir_clientes();
+CALL spRelatorioClientes();
 
 
 DELIMITER $$
