@@ -1,24 +1,26 @@
--- Cria uma view que exibe o código e o nome dos produtos:
-CREATE VIEW vw_viewProduto AS
-SELECT *
-FROM tbProduto;
 
--- Cria uma view que exibe o código e o nome dos clientes:
+-- Cria uma view que exibe os dados dos produtos:
+CREATE VIEW vw_viewProduto AS
+SELECT PRO_CODIGO, PRO_NOME, PRO_QTDE, PRO_UNIDADE, PRO_PRECO_UNIT 
+from tbProduto;
+
+-- Cria uma view que exibe alguns dados dos clientes:
 CREATE VIEW vw_viewClientes AS
-SELECT CLI_CODIGO, CLI_NOME
+SELECT CLI_CODIGO, CLI_NOME, CLI_RUA, CLI_NUMERO, CLI_BAIRRO
 FROM tbCliente;
 
 -- Consultar os dados armazenados na view:
+SELECT * FROM vw_viewProduto;
 SELECT * FROM vw_viewClientes;
 
 -- Altera uma view existente, adicionando o CPF do cliente:
 CREATE OR REPLACE VIEW vw_viewClientes AS
-SELECT CLI_CODIGO, CLI_NOME, CLI_CPF
+SELECT CLI_CODIGO, CLI_NOME, CLI_CPF, CLI_RUA, CLI_NUMERO, CLI_BAIRRO
 FROM tbCliente;
 
 -- Altera a view, renomear as colunas e exibir apenas os clientes
 -- cujo nome inicia com "GA":
-CREATE OR REPLACE VIEW vw_viewClientes AS
+CREATE OR REPLACE VIEW vw_viewClientes2 AS
 SELECT 
     CLI_CODIGO AS Codigo,
     CLI_NOME AS Nome,
