@@ -79,7 +79,7 @@ Migração de MySQL para MongoDB: análise dos desafios de modelagem e avaliaç�
 
 ## Equipe 03 — Séries temporais e dados espaço-temporais
 
-### Data: 17/11/2026
+### Data: 17/11/2026 :white_check_mark:
 
 ### Integrantes
 
@@ -106,7 +106,7 @@ MongoDB e InfluxDB no gerenciamento de dados espaço-temporais: uma análise com
 
 ## Equipe 04 — Tipos de dados e desempenho no MySQL
 
-### Data: 17/11/2026
+### Data: 17/11/2026 :white_check_mark:
 
 ### Integrantes
 
@@ -134,7 +134,7 @@ Escolha de tipos de dados e desempenho no MySQL: análise comparativa entre ENUM
 
 ## Equipe 05 — Bancos relacionais e bancos em grafos
 
-### Data: 16/11/2026
+### Data: 16/11/2026 :white_check_mark:
 
 ### Integrantes
 
@@ -186,7 +186,7 @@ Desempenho de Redis, MongoDB e Cassandra em um ambiente distribuído: uma análi
 
 ## Equipe 07 — Replicação, consistência e recuperação de falhas
 
-### Data: 16/11/2026
+### Data: 16/11/2026 :white_check_mark:
 
 ### Integrantes
 
