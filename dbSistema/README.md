@@ -23,6 +23,8 @@ A seleção reúne artigos da SBC Open Library, biblioteca digital da Sociedade 
 
 ## Equipe 01 — Modelagem de bancos NoSQL orientados a documentos
 
+### Data: 1X/11/2026
+
 ### Integrantes
 
 - DAVILA SILVA PEREIRA RIBEIRO
@@ -56,6 +58,8 @@ Modelagem de documentos em bancos NoSQL: uma análise dos efeitos sobre o desemp
 
 ## Equipe 02 — Migração de banco relacional para NoSQL
 
+### Data: 1X/11/2026
+
 ### Integrantes
 
 - MIGUEL RAMOS PEREIRA
@@ -87,6 +91,8 @@ Migração de MySQL para MongoDB: análise dos desafios de modelagem e avaliaç�
 
 ## Equipe 03 — Séries temporais e dados espaço-temporais
 
+### Data: 17/11/2026
+
 ### Integrantes
 
 - FRANCISCO ADAIL VIEIRA NETO
@@ -117,6 +123,8 @@ MongoDB e InfluxDB no gerenciamento de dados espaço-temporais: uma análise com
 <a id="equipe-04"></a>
 
 ## Equipe 04 — Tipos de dados e desempenho no MySQL
+
+### Data: 1X/11/2026
 
 ### Integrantes
 
@@ -151,6 +159,8 @@ Escolha de tipos de dados e desempenho no MySQL: análise comparativa entre ENUM
 
 ## Equipe 05 — Bancos relacionais e bancos em grafos
 
+### Data: 1X/11/2026
+
 ### Integrantes
 
 - EDUARDO BARROS DE OLIVEIRA
@@ -182,6 +192,8 @@ Bancos relacionais e bancos em grafos: uma análise comparativa do acesso a dado
 
 ## Equipe 06 — Desempenho de bancos NoSQL distribuídos
 
+### Data: 1X/11/2026
+
 ### Integrantes
 
 - ÁLVARO PIRES GONÇALVES MENDES
@@ -210,6 +222,8 @@ Desempenho de Redis, MongoDB e Cassandra em um ambiente distribuído: uma análi
 <a id="equipe-07"></a>
 
 ## Equipe 07 — Replicação, consistência e recuperação de falhas
+
+### Data: 1X/11/2026
 
 ### Integrantes
 
@@ -241,6 +255,8 @@ Replicação e recuperação de falhas em bancos distribuídos: uma análise da 
 <a id="equipe-08"></a>
 
 ## Equipe 08 — Segurança em bancos NoSQL
+
+### Data: 1X/11/2026
 
 ### Integrantes
 
