@@ -106,7 +106,7 @@ MongoDB e InfluxDB no gerenciamento de dados espaço-temporais: uma análise com
 
 ## Equipe 04 — Tipos de dados e desempenho no MySQL
 
-### Data: 1X/11/2026
+### Data: 17/11/2026
 
 ### Integrantes
 
