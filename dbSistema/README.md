@@ -112,7 +112,7 @@ MongoDB e InfluxDB no gerenciamento de dados espaço-temporais: uma análise com
 
 - KAUÊ TAVARES PONTES
 - CARLOS VINICIUS SILVA DOS SANTOS
-- THIAGO NOGUEIRA BRITO
+- GUILHERME SOARES PASSOS
 - VICTOR GABRIEL RODRIGUES BERLINCK
 
 ### Artigo-base
@@ -134,7 +134,7 @@ Escolha de tipos de dados e desempenho no MySQL: análise comparativa entre ENUM
 
 ## Equipe 05 — Bancos relacionais e bancos em grafos
 
-### Data: 1X/11/2026
+### Data: 16/11/2026
 
 ### Integrantes
 
@@ -168,7 +168,7 @@ Bancos relacionais e bancos em grafos: uma análise comparativa do acesso a dado
 - ÁLVARO PIRES GONÇALVES MENDES
 - KERLLON OLIVEIRA PASSOS
 - ALYSSON GABRIEL SAMPAIO SANTIAGO
-- CAUA VIEIRA RODRIGUES
+- EDUARDO DE FREITAS SARAIVA
 
 ### Artigo-base
 
@@ -186,14 +186,14 @@ Desempenho de Redis, MongoDB e Cassandra em um ambiente distribuído: uma análi
 
 ## Equipe 07 — Replicação, consistência e recuperação de falhas
 
-### Data: 1X/11/2026
+### Data: 16/11/2026
 
 ### Integrantes
 
-- EDUARDO DE FREITAS SARAIVA
-- EZEQUIEL SILVA DE LIMA
-- GUILHERME SOARES PASSOS
+- CAUA VIEIRA RODRIGUES
 - ISAQUE ALVES DE SAMPAIO
+- THIAGO NOGUEIRA BRITO
+- LUIZ EDUARDO GOMES DA SILVA
 
 ### Artigo-base
 
@@ -217,7 +217,7 @@ Replicação e recuperação de falhas em bancos distribuídos: uma análise da 
 
 ### Integrantes
 
-- LUIZ EDUARDO GOMES DA SILVA
+- EZEQUIEL SILVA DE LIMA
 - MARCUS VINÍCIUS ROQUE DE FRANÇA DANTAS
 - PABLO AUGUSTO RODRIGUES FARIAS MARTINS
 - YAGO LIMA COUTINHO
