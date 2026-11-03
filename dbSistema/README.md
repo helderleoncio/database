@@ -48,12 +48,6 @@ Publicação: Simpósio Brasileiro de Banco de Dados — SBBD, 2023, p. 26–38.
 
 Modelagem de documentos em bancos NoSQL: uma análise dos efeitos sobre o desempenho
 
-### Questões para orientar a leitura
-
-- Como os autores diferenciam documentos aninhados e referenciados?
-- Quais condições foram consideradas na comparação?
-- Até que ponto os resultados permitem recomendar uma modelagem?
-
 <a id="equipe-02"></a>
 
 ## Equipe 02 — Migração de banco relacional para NoSQL
@@ -81,12 +75,6 @@ Publicação: Escola Regional de Banco de Dados — ERBD, 2026, p. 119–128.
 
 Migração de MySQL para MongoDB: análise dos desafios de modelagem e avaliação de desempenho
 
-### Questões para orientar a leitura
-
-- Quais mudanças de estrutura são necessárias na migração?
-- Como o processo de ETL foi organizado?
-- Quais evidências o artigo apresenta para apoiar decisões de migração?
-
 <a id="equipe-03"></a>
 
 ## Equipe 03 — Séries temporais e dados espaço-temporais
@@ -113,12 +101,6 @@ Publicação: SBBD, 2025, p. 507–520.
 ### Título sugerido para o resumo expandido
 
 MongoDB e InfluxDB no gerenciamento de dados espaço-temporais: uma análise comparativa
-
-### Questões para orientar a leitura
-
-- Como os dados foram preparados e modelados?
-- Por que os resultados variam conforme o tipo de consulta?
-- Quais características da aplicação devem orientar a escolha do SGBD?
 
 <a id="equipe-04"></a>
 
@@ -148,13 +130,6 @@ Publicação: Escola Regional de Informática de Goiás — ERI-GO, 2024, p. 243
 
 Escolha de tipos de dados e desempenho no MySQL: análise comparativa entre ENUM e VARCHAR
 
-### Questões para orientar a leitura
-
-- Quais operações foram avaliadas?
-- Os resultados favorecem a mesma alternativa em todos os cenários?
-- Quais limitações precisam ser consideradas antes de generalizar as conclusões?
-
-
 <a id="equipe-05"></a>
 
 ## Equipe 05 — Bancos relacionais e bancos em grafos
@@ -182,12 +157,6 @@ Publicação: Escola Regional de Banco de Dados — ERBD, 2018, p. 32–41.
 
 Bancos relacionais e bancos em grafos: uma análise comparativa do acesso a dados conectados
 
-### Questões para orientar a leitura
-
-- Como o mesmo conjunto de dados foi representado nos dois modelos?
-- Como SQL e Cypher foram utilizados?
-- Como versões dos sistemas, configurações e consultas delimitam as conclusões?
-
 <a id="equipe-06"></a>
 
 ## Equipe 06 — Desempenho de bancos NoSQL distribuídos
@@ -212,12 +181,6 @@ Publicação: Escola Regional de Alto Desempenho de São Paulo — ERAD-SP, 2022
 ### Título sugerido para o resumo expandido
 
 Desempenho de Redis, MongoDB e Cassandra em um ambiente distribuído: uma análise de cargas de trabalho
-
-### Questões para orientar a leitura
-
-- Como o ambiente distribuído foi organizado?
-- Quais métricas e cargas foram utilizadas?
-- Por que um resultado de desempenho precisa ser interpretado em função do cenário avaliado?
 
 <a id="equipe-07"></a>
 
@@ -246,12 +209,6 @@ Publicação: SBBD, 2023.
 
 Replicação e recuperação de falhas em bancos distribuídos: uma análise da proposta Treplica-Redis
 
-### Questões para orientar a leitura
-
-- Qual problema de consistência motiva a proposta?
-- Qual é a função de cada componente da arquitetura?
-- Como os autores relacionam garantias de consistência e desempenho?
-
 <a id="equipe-08"></a>
 
 ## Equipe 08 — Segurança em bancos NoSQL
@@ -278,12 +235,6 @@ Publicação: Congresso Latino-Americano de Software Livre e Tecnologias Abertas
 ### Título sugerido para o resumo expandido
 
 Segurança em bancos NoSQL: análise de vulnerabilidades e prevenção de ataques de injeção
-
-### Questões para orientar a leitura
-
-- Quais ameaças são discutidas?
-- Que medidas de prevenção são apresentadas?
-- Quais afirmações são apoiadas por experimentos e quais decorrem da literatura consultada?
 
 ## Orientação comum para os oito resumos
 
