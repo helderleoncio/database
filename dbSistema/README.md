@@ -52,7 +52,7 @@ Modelagem de documentos em bancos NoSQL: uma análise dos efeitos sobre o desemp
 
 ## Equipe 02 — Migração de banco relacional para NoSQL
 
-## Data: 11/11/2026 :white_check_mark:
+### Data: 11/11/2026 :white_check_mark:
 
 ### Integrantes
 
