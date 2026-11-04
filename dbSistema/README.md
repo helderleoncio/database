@@ -23,7 +23,7 @@ A seleção reúne artigos da SBC Open Library, biblioteca digital da Sociedade 
 
 ## Equipe 01 — Modelagem de bancos NoSQL orientados a documentos
 
-### Data: 1X/11/2026
+### Data: 18/11/2026 :white_check_mark:
 
 ### Integrantes
 
@@ -52,7 +52,7 @@ Modelagem de documentos em bancos NoSQL: uma análise dos efeitos sobre o desemp
 
 ## Equipe 02 — Migração de banco relacional para NoSQL
 
-### Data: 1X/11/2026
+## Data: 11/11/2026 :white_check_mark:
 
 ### Integrantes
 
@@ -167,8 +167,8 @@ Bancos relacionais e bancos em grafos: uma análise comparativa do acesso a dado
 
 - ÁLVARO PIRES GONÇALVES MENDES
 - KERLLON OLIVEIRA PASSOS
-- ALYSSON GABRIEL SAMPAIO SANTIAGO
-- EDUARDO DE FREITAS SARAIVA
+- 
+- 
 
 ### Artigo-base
 
@@ -213,11 +213,12 @@ Replicação e recuperação de falhas em bancos distribuídos: uma análise da 
 
 ## Equipe 08 — Segurança em bancos NoSQL
 
-### Data: 1X/11/2026
+### Data: 11/11/2026 :white_check_mark:
 
 ### Integrantes
 
 - EZEQUIEL SILVA DE LIMA
+- ALYSSON GABRIEL SAMPAIO SANTIAGO
 - MARCUS VINÍCIUS ROQUE DE FRANÇA DANTAS
 - PABLO AUGUSTO RODRIGUES FARIAS MARTINS
 - YAGO LIMA COUTINHO
