@@ -161,14 +161,12 @@ Bancos relacionais e bancos em grafos: uma análise comparativa do acesso a dado
 
 ## Equipe 06 — Desempenho de bancos NoSQL distribuídos
 
-### Data: 1X/11/2026
+### Data: 18/11/2026 :white_check_mark:
 
 ### Integrantes
 
 - ÁLVARO PIRES GONÇALVES MENDES
 - KERLLON OLIVEIRA PASSOS
-- 
-- 
 
 ### Artigo-base
 
